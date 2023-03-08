@@ -1,12 +1,7 @@
 function toggleImage(smallImage){
-  
   const mainImage = document.getElementById('main_image');
   mainImage.src = smallImage.src;
   window.stop();
-}
-
-function changeColorImage(){
-  document.getElementById('main_image').src = 'src/assets/img/page-details-img-III.jpg';
 }
 
 let productQuantity = 0;
